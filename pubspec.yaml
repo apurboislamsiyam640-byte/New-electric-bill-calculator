@@ -1,0 +1,18 @@
+name: photo_backup
+description: Photo backup to Telegram + YouTube viewer
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^11.3.0
+  photo_manager: ^3.3.0
+  http: ^1.2.0
+  webview_flutter: ^4.7.0
+
+flutter:
+  uses-material-design: true
